@@ -1,19 +1,25 @@
 ---
 permalink: /
-title: "Anran Xu's academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I'm a graduate student in the Master of Science in Geophysics program at the University of British Columbia. Before that, I obtained my Honours Bachelor of Science degree (Mathematics & Its Applications Specialist (Physical Science); Physics Major) at the University of Toronto.
+I'm a graduate student in the Master of Science in Geophysics program at the University of British Columbia. I obtained my Honours Bachelor of Science degree (Mathematics & Its Applications Specialist (Physical Science); Physics Major) at the University of Toronto.
 
 My research interests include AI for physics and applications of machine learning models to inverse problems. In my Master's thesis, I focus on leveraging test time learning ML methods to the geophysical inverse problems. I'm also broadly interested in inverse problems in the subfields of physics such as earthquake (worked under the supervision of Prof. Qinya Liu at UofT), cosmology (worked under the supervision of Dr. Keir Rogers at UofT), and fluorescence image super-resolutions (worked under the supervision under Luca Calatroni and Laure Blanc-Féraud at CNRS).
 
-Leveraging convolutional neural networks for implicit regularization in DC resistivity inversions (DIP-Inv)
+You can find my publications, conference abstracts, and my CV.
+
+You can find out more about my recent research below.
+
+Leveraging convolutional neural networks for implicit regularization in DC resistivity inversions (DIP-Inv) 
 ======
 The recent emergence of artificial intelligence has garnered significant attention from researchers, particularly regarding the integration of machine learning algorithms into the inversion algorithm. Researchers in Computer Vision (CV) have discovered that the Convolutional Neural Network (CNN) architecture inherently enforces a prior knowledge that is advantageous for addressing diverse CV inverse problems, including de-noising and inpainting. This inherent regularization effect has been shown to improve models recovered through full waveform inversion of seismic data. Consequently, the utilization of trainable weights within the CNN to parameterize the subsurface map holds promise for potential applicability in other geophysical inversion problems. In this study, we examine the applicability to the inversion of DC resistivity data. The CNN maps an arbitrary vector to the model space (e.g. log- conductivity on the simulation mesh). The predicted subsurface model is fed into the SimPEG numerical simulation package to generate corresponding predicted measurements. Subsequently, the objective function value is computed by comparing these predicted measurements with the observed field measurements. The backpropagation algorithm is employed to update the trainable parameters of the CNN until convergence. Note that the CNN does not require training prior to the inversion, rather, the CNN weights are estimated in the inversion algorithm. Our preliminary work shows that we can recover models that are comparable to, and even superior to that obtained using a standard inversion. For example, we have found that relying on the implicit regularization of the CNN improves the recovery of the dip of a target when a standard L2 or L1 regularization is employed. This method is training-data-free, so it can be adapted to other EM inversion problems.
+
+You can find more details in the github repo: https://github.com/anna1963/DIP-Inv
 
 <img src='/images/AGU23.png'>
 

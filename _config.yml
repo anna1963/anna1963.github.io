@@ -209,7 +209,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  conference:
+  conferences:
     output: true
     permalink: /:collection/:path/
 
@@ -269,10 +269,10 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _conference
+  # _conferences
   - scope:
       path: ""
-      type: conference
+      type: conferences
     values:
       layout: single
       author_profile: true
