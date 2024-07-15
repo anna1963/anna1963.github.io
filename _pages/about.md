@@ -11,7 +11,7 @@ I'm a graduate student in the Master of Science in Geophysics program at the Uni
 
 My research interests include AI for physics and applications of machine learning models to inverse problems. In my Master's thesis, I focus on leveraging test time learning ML methods to the geophysical inverse problems. I'm also broadly interested in inverse problems in the subfields of physics such as earthquake (worked under the supervision of Prof. Qinya Liu at UofT), cosmology (worked under the supervision of Dr. Keir Rogers at UofT), and fluorescence image super-resolutions (worked under the supervision under Luca Calatroni and Laure Blanc-Féraud at CNRS).
 
-You can find my publications, conference abstracts, and my CV.
+You can find my publications, conference abstracts, and my CV above.
 
 You can find out more about my recent research below.
 

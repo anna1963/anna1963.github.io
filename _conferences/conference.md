@@ -1,10 +1,6 @@
 ---
-permalink: /
-title: ""
-author_profile: true
-redirect_from: 
-  - /conferences/
-  - /conferences.html
+title: "Conferences"
+collection: conferences
 ---
 
 AGU23: Leveraging convolutional neural networks for implicit regularization in DC resistivity inversions (DIP-Inv) 
