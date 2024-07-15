@@ -18,5 +18,5 @@ main:
   - title: "CV"
     url: https://www.eoas.ubc.ca/sites/default/files/sites/default/files/user/axu/cv/Resume_Anran_Xu.pdf
     
-  #- title: "Guide"
-  #  url: /markdown/
+  - title: "Conferences"
+    url: /conferences/
