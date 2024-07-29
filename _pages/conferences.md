@@ -13,7 +13,7 @@ Advancing Earth and Space Science (AGU23, December 13, 2023) [awarded the Outsta
 
 Anran Xu, Lindsey Justine Heagy and John Weis, University of British Columbia
 
-You can find poster and video presentation [here] (https://agu23.ipostersessions.com/?s=C6-F6-87-20-DE-67-43-79-FD-E2-69-3E-7C-5A-FA-EF)
+You can find the e-poster and a video presentation ('bottom right icon VEDIO PRES") [here](https://agu23.ipostersessions.com/?s=C6-F6-87-20-DE-67-43-79-FD-E2-69-3E-7C-5A-FA-EF)
 
 This work was published in IEEE Transactions on Geoscience and Remote Sensing, and you can find the link to the paper in the "Publications" section.
 
