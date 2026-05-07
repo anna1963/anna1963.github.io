@@ -23,7 +23,7 @@ The follow-up work was published in IEEE Transactions on Geoscience and Remote S
 
 Leverage Neural fields to the geophysical inverse problems 
 ======
-SLAM Conference on mathematics of Data Science (MDS24, October 25, 2024)
+SIAM Conference on mathematics of Data Science (MDS24, October 25, 2024)
 
 Anran Xu, and Lindsey Justine Heagy, University of British Columbia
 
@@ -31,6 +31,15 @@ Abstract:
 
 The recent surge in test time learning (TTL) has garnered substantial attention from researchers, particularly in the context of incorporating machine learning algorithms into the inversion process. The deep image prior (DIP) method and coordinate-based representations (e.g., neural fields) have shown that neural networks (NN), without any prior learning, can produce good inversion results. In this work, we will discuss the progress in utilizing neural fields in the geophysical inverse problems. Neural fields use neural networks to map a coordinate to the corresponding physical property value at that coordinate. We formulate the inverse problem in terms of the NN weights, which allows us to take advantage of searching over the high-dimensional space. Furthermore, parameterizing the inverse problems in a continuous setting naturally introduces smoothing effects. We demonstrate the use of neural fields in seismic tomography inversions and direct current resistivity inversions. The results show that this TTL approach can eliminate unwanted artifacts in the recovered subsurface physical property model caused by the sensitivity of the survey and physics. We also find that our results are better than the conventional inversion results in some cases in terms of the recovery of the boundaries and physical property values of the main targets. Our work illustrates that the inductive bias brought by neural fields can be beneficial in geophysical inversion.
 
-Paper in progress
+Towards Understanding the Benefits of Neural Network Parameterizations in Geophysical Inversions: A Study With Neural Fields
+======
+KEGS  (KEGS25, March , 2025) [oral presentation]
+
+Anran Xu, and Lindsey Justine Heagy, University of British Columbia
+
+Abstract:
+
+Recent research in test-time machine learning methods has shown that some machine learning models without any prior learning can improve the results of geophysical inversions. Some examples include the Deep Image Prior Inversions (DIP-Inv) and the Neural Fields Inversions (NFs-Inv), where the inverse problems are reparametrized by the weights of the machine learning models, and those weights are estimated during the inverse process. These methods utilize the implicit bias, which is inherent in the machine learning model structures, to impose a useful regularization effect on the geophysical inverse problems. However, the underlying mechanism of this implicit bias has not been fully explained. Recently, the generalization of modern supervised learning models in some inverse tasks in computer vision has been attributed to implicit bias as well. Considering that this implicit bias does not come from the training data set, we could utilize the analysis of that work to take one step further to explain the performance of the implicit bias and test-time learning methods in the geophysical inverse problems. In this work, we will show that the test-time machine learning methods can improve the geophysical inversion result by finding weights that can capture geometric structures in the physical property model (or so-called “geometry-adaptive harmonic bases”). We use neural fields, which use neural networks to map a coordinate to the corresponding physical property value at that coordinate, in a test-time learning manner. For a test-time learning method, the weights are learned during the inversion, as compared to traditional approaches which require a network be trained using a training data set. The test results for seismic tomography inversions and direct current resistivity inversions are shown first, followed by the eigen-decomposition analysis for both cases. The results show that the test-time learning approach can eliminate unwanted artifacts in the recovered subsurface physical property model caused by the sensitivity of the survey and physics; therefore, NFs-Inv improve the inversion results compared to the conventional inversion in some cases such as the recovery of the dip angle or the prediction of the boundaries of the main target. Our analysis will partly explain this phenomenon. Further works such as the applications in the field data and other theoretical analyses of the implicit bias are still in progress. By showing that the implicit bias brought by the Deep Neural Networks (DNNs) can benefit geophysical inversions, we also give insights into other machine learning methods in geophysics. 
+
 
 
