@@ -9,7 +9,7 @@ redirect_from:
 
 Leveraging Convolutional Neural Networks for implicit regularization
 ======
-Advancing Earth and Space Science (AGU23, December 13, 2023) [==awarded the Outstanding Student Presentation Awards (OSPA)==]
+Advancing Earth and Space Science (AGU23, December 13, 2023) [awarded the Outstanding Student Presentation Awards (OSPA)======]
 
 Anran Xu, Lindsey Justine Heagy and John Weis, University of British Columbia
 
@@ -43,7 +43,7 @@ Recent research in test-time machine learning methods has shown that some machin
 
 Leveraging Implicit Regularization with Test-Time Machine Learning Methods for PDE-Constrained Optimization
 ======
-SIAM Conference on Optimization (OP26, June, 2026) [==Session Chair==]
+SIAM Conference on Optimization (OP26, June, 2026) [Session Chair======]
 
 Anran Xu, and Lindsey Justine Heagy, University of British Columbia
 
